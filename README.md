@@ -12,13 +12,12 @@
 ### Установка и запуск
 
 **Клонируйте репозиторий**
-```bash
 
 git clone https://github.com/Daiskii12/search-engine.git
 
 cd search-engine
 
-###Создайте файл src/main/resources/application.yaml
+**Создайте файл src/main/resources/application.yaml**
 
 server:
   port: 8080

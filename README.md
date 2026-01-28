@@ -13,7 +13,7 @@
 
 **Клонируйте репозиторий**
 
-git clone [[https://github.com/Daiskii12/search-engine.git](https://github.com/Daiskii12/MyProgect.git)](https://github.com/Daiskii12/MyProgect/tree/main/MyProg)
+git clone https://github.com/Daiskii12/MyProgect/tree/main/MyProg
 
 cd search-engine
 

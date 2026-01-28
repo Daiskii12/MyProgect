@@ -18,7 +18,7 @@ git clone https://github.com/Daiskii12/search-engine.git
 
 cd search-engine
 
-Создайте файл src/main/resources/application.yaml
+**Создайте файл src/main/resources/application.yaml**
 
 server:
   port: 8080
@@ -50,4 +50,4 @@ indexing-settings:
     - url: "http://radiomv.ru/"
       name: "Radio MV"
 
-Создайте и настройте базу данных
+**Создайте и настройте базу данных**

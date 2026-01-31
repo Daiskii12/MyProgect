@@ -37,4 +37,12 @@ public interface PageRepository extends JpaRepository<Page, Integer> {
             "HAVING COUNT(*) > 1",
             nativeQuery = true)
     List<Object[]> findDuplicates();
+
+    List<Page> findBySite(Site site);
+
+    @Query("SELECT COUNT(p) FROM Page p WHERE p.site = :site")
+    int countBySite(Site site);
+
+    @Query("SELECT COUNT(p) FROM Page p WHERE p.site = :site AND p.code >= 200 AND p.code < 400")
+    int countSuccessfulPagesBySite(Site site);
 }
